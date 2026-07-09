@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 61,
+    "supported_formats": {
+      "min_inclusive": 57,
+      "max_inclusive": 107
+    },
+    "description": "랜덤 크기 변경 데이터팩 - 명령어를 입력하면 랜덤한 크기로 변합니다!"
+  }
+}

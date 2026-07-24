@@ -1,0 +1,111 @@
+# ============================================
+# 랜덤 크기 적용
+# ============================================
+
+# trigger 값 초기화
+scoreboard players set @s random_size 0
+
+# 랜덤 값 생성 (1~100)
+execute store result score @s rs_random run random value 1..100
+
+execute if score @s rs_random matches 1 run function random_size:sizes/size_01
+execute if score @s rs_random matches 2 run function random_size:sizes/size_02
+execute if score @s rs_random matches 3 run function random_size:sizes/size_03
+execute if score @s rs_random matches 4 run function random_size:sizes/size_04
+execute if score @s rs_random matches 5 run function random_size:sizes/size_05
+execute if score @s rs_random matches 6 run function random_size:sizes/size_06
+execute if score @s rs_random matches 7 run function random_size:sizes/size_07
+execute if score @s rs_random matches 8 run function random_size:sizes/size_08
+execute if score @s rs_random matches 9 run function random_size:sizes/size_09
+execute if score @s rs_random matches 10 run function random_size:sizes/size_10
+execute if score @s rs_random matches 11 run function random_size:sizes/size_11
+execute if score @s rs_random matches 12 run function random_size:sizes/size_12
+execute if score @s rs_random matches 13 run function random_size:sizes/size_13
+execute if score @s rs_random matches 14 run function random_size:sizes/size_14
+execute if score @s rs_random matches 15 run function random_size:sizes/size_15
+execute if score @s rs_random matches 16 run function random_size:sizes/size_16
+execute if score @s rs_random matches 17 run function random_size:sizes/size_17
+execute if score @s rs_random matches 18 run function random_size:sizes/size_18
+execute if score @s rs_random matches 19 run function random_size:sizes/size_19
+execute if score @s rs_random matches 20 run function random_size:sizes/size_20
+execute if score @s rs_random matches 21 run function random_size:sizes/size_21
+execute if score @s rs_random matches 22 run function random_size:sizes/size_22
+execute if score @s rs_random matches 23 run function random_size:sizes/size_23
+execute if score @s rs_random matches 24 run function random_size:sizes/size_24
+execute if score @s rs_random matches 25 run function random_size:sizes/size_25
+execute if score @s rs_random matches 26 run function random_size:sizes/size_26
+execute if score @s rs_random matches 27 run function random_size:sizes/size_27
+execute if score @s rs_random matches 28 run function random_size:sizes/size_28
+execute if score @s rs_random matches 29 run function random_size:sizes/size_29
+execute if score @s rs_random matches 30 run function random_size:sizes/size_30
+execute if score @s rs_random matches 31 run function random_size:sizes/size_31
+execute if score @s rs_random matches 32 run function random_size:sizes/size_32
+execute if score @s rs_random matches 33 run function random_size:sizes/size_33
+execute if score @s rs_random matches 34 run function random_size:sizes/size_34
+execute if score @s rs_random matches 35 run function random_size:sizes/size_35
+execute if score @s rs_random matches 36 run function random_size:sizes/size_36
+execute if score @s rs_random matches 37 run function random_size:sizes/size_37
+execute if score @s rs_random matches 38 run function random_size:sizes/size_38
+execute if score @s rs_random matches 39 run function random_size:sizes/size_39
+execute if score @s rs_random matches 40 run function random_size:sizes/size_40
+execute if score @s rs_random matches 41 run function random_size:sizes/size_41
+execute if score @s rs_random matches 42 run function random_size:sizes/size_42
+execute if score @s rs_random matches 43 run function random_size:sizes/size_43
+execute if score @s rs_random matches 44 run function random_size:sizes/size_44
+execute if score @s rs_random matches 45 run function random_size:sizes/size_45
+execute if score @s rs_random matches 46 run function random_size:sizes/size_46
+execute if score @s rs_random matches 47 run function random_size:sizes/size_47
+execute if score @s rs_random matches 48 run function random_size:sizes/size_48
+execute if score @s rs_random matches 49 run function random_size:sizes/size_49
+execute if score @s rs_random matches 50 run function random_size:sizes/size_50
+execute if score @s rs_random matches 51 run function random_size:sizes/size_51
+execute if score @s rs_random matches 52 run function random_size:sizes/size_52
+execute if score @s rs_random matches 53 run function random_size:sizes/size_53
+execute if score @s rs_random matches 54 run function random_size:sizes/size_54
+execute if score @s rs_random matches 55 run function random_size:sizes/size_55
+execute if score @s rs_random matches 56 run function random_size:sizes/size_56
+execute if score @s rs_random matches 57 run function random_size:sizes/size_57
+execute if score @s rs_random matches 58 run function random_size:sizes/size_58
+execute if score @s rs_random matches 59 run function random_size:sizes/size_59
+execute if score @s rs_random matches 60 run function random_size:sizes/size_60
+execute if score @s rs_random matches 61 run function random_size:sizes/size_61
+execute if score @s rs_random matches 62 run function random_size:sizes/size_62
+execute if score @s rs_random matches 63 run function random_size:sizes/size_63
+execute if score @s rs_random matches 64 run function random_size:sizes/size_64
+execute if score @s rs_random matches 65 run function random_size:sizes/size_65
+execute if score @s rs_random matches 66 run function random_size:sizes/size_66
+execute if score @s rs_random matches 67 run function random_size:sizes/size_67
+execute if score @s rs_random matches 68 run function random_size:sizes/size_68
+execute if score @s rs_random matches 69 run function random_size:sizes/size_69
+execute if score @s rs_random matches 70 run function random_size:sizes/size_70
+execute if score @s rs_random matches 71 run function random_size:sizes/size_71
+execute if score @s rs_random matches 72 run function random_size:sizes/size_72
+execute if score @s rs_random matches 73 run function random_size:sizes/size_73
+execute if score @s rs_random matches 74 run function random_size:sizes/size_74
+execute if score @s rs_random matches 75 run function random_size:sizes/size_75
+execute if score @s rs_random matches 76 run function random_size:sizes/size_76
+execute if score @s rs_random matches 77 run function random_size:sizes/size_77
+execute if score @s rs_random matches 78 run function random_size:sizes/size_78
+execute if score @s rs_random matches 79 run function random_size:sizes/size_79
+execute if score @s rs_random matches 80 run function random_size:sizes/size_80
+
+execute if score @s rs_random matches 81 run function random_size:sizes/size_81
+execute if score @s rs_random matches 82 run function random_size:sizes/size_82
+execute if score @s rs_random matches 83 run function random_size:sizes/size_83
+execute if score @s rs_random matches 84 run function random_size:sizes/size_84
+execute if score @s rs_random matches 85 run function random_size:sizes/size_85
+execute if score @s rs_random matches 86 run function random_size:sizes/size_86
+execute if score @s rs_random matches 87 run function random_size:sizes/size_87
+execute if score @s rs_random matches 88 run function random_size:sizes/size_88
+execute if score @s rs_random matches 89 run function random_size:sizes/size_89
+execute if score @s rs_random matches 90 run function random_size:sizes/size_90
+execute if score @s rs_random matches 91 run function random_size:sizes/size_91
+execute if score @s rs_random matches 92 run function random_size:sizes/size_92
+execute if score @s rs_random matches 93 run function random_size:sizes/size_93
+execute if score @s rs_random matches 94 run function random_size:sizes/size_94
+execute if score @s rs_random matches 95 run function random_size:sizes/size_95
+execute if score @s rs_random matches 96 run function random_size:sizes/size_96
+execute if score @s rs_random matches 97 run function random_size:sizes/size_97
+execute if score @s rs_random matches 98 run function random_size:sizes/size_98
+execute if score @s rs_random matches 99 run function random_size:sizes/size_99
+execute if score @s rs_random matches 100 run function random_size:sizes/size_100

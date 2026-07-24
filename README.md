@@ -5,5 +5,5 @@
 
 
 ## 명령어
-- ```/trigger random_size``` 입력 시 랜덤한 크기로 변경 (0.1x ~ 6.0x)
+- ```/trigger random_size``` 입력 시 랜덤한 크기로 변경 (0.1x ~ 10.0x)
 - ```/trigger normal_size``` 입력 시 기본 크기로 변경 (1.0x)
